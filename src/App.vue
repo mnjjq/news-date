@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <p>123</p>
+  <div id="app">
+    <router-view />
   </div>
 </template>
 
@@ -11,5 +11,9 @@ export default {
 </script>
 
 <style scoped>
-
+  p{
+    width: 100px;
+    height: 200px;
+    background-color: pink;
+  }
 </style>

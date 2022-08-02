@@ -1,5 +1,16 @@
+@import "../assets/font_3473052_iol0mbb546a/iconfont.css";
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+body {
+  background-color: #f5f7f9;
+}
+.my-nav-bar {
+  background-color: #3296fa;
+}
+.my-nav-bar .van-nav-bar__title,
+.my-nav-bar .van-icon {
+  color: #fff;
 }
